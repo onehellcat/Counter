@@ -1,0 +1,91 @@
+html{
+    background-color: rgb(22, 22, 22);
+
+}
+
+  .flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-content: stretch;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    padding: 8px;
+  }
+
+
+  .item1 { 
+    align-self:center;
+  }
+			
+  .item2 { 
+    flex-grow:0;
+    flex-shrink:0;
+    align-self:center;
+  }
+			
+  .item3 { 
+
+    flex-grow:0;
+    align-self:center;
+  }
+			
+#counter{
+    font-size: 32px;
+    color: white;
+}
+
+button{
+    font-size: 24px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 120px;
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+
+button:hover{
+   opacity: 0.8;
+   border-radius: 10px;
+}
+
+
+
+
+
+#increase{
+    background-color:rgb(0, 210, 105);
+}
+
+#decrease {
+    background-color: rgb(219, 13, 54);
+}
+
+#reset{
+    background-color: rgb(0, 123, 239);
+}
+
+
+
+#decrease:disabled{
+    background-color: rgb(104, 7, 26);
+    opacity: 0.4;
+    cursor:not-allowed;
+    color: rgb(104, 104, 104);
+}
+
+#reset:disabled{
+    background-color: rgb(11, 78, 141);
+    opacity: 0.4;
+    cursor:not-allowed;
+    color: rgb(104, 104, 104);
+}
