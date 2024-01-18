@@ -1,5 +1,5 @@
 Simple, basic counter in Javascript.
-Reset and Decrease button is disabled when the counter is at 0.
+Reset and Decrease button is disabled when the counter is at 0.<br>
 Live Demo:
 https://onehellcat.github.io/Counter/
 
